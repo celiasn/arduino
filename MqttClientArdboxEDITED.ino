@@ -127,7 +127,7 @@ void mqttCallback(char* topic, byte* payload, unsigned int len) {
       mqtt.publish(topicComOut,3); //Cerrado
     }
     else{
-      mqtt.publish(topicComOut,0);
+      mqtt.publish(topicComOut,99);
     }
   }
 }
